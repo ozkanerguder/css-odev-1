@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution of Champions on LoL</title>
+    <link rel="icon" href="img/darius.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+    alert("Click on the gifs to see the new version of champions.");
+</script>
+<style>
+    body{
+        background-image: url('img/background2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    @font-face {
+    font-family: 'animalesfont';
+    src: local("animalesfont"), 
+    url(css/animalesfont.ttf) format(truetype);
+    font-display: swap;
+}
+</style>
+<body>
+    <h1 class="baslik">CHAMPIONS</h1>
+    <button id="buttondate" type="button"
+    onclick="document.getElementById('date').innerHTML = Date()">Date/Time
+    </button>
+    <p id="date"></p>
+    <br><br>
+    <div class="sidebar" id="transparent">
+        <div>
+            <ul id="ulsidebar">
+                <li><a class="sidebartext" href ="index.html">Home Page</a></li><br>
+                <li><a class="sidebartext" href="champions.html">Champions</a></li><br>
+                <li><a class="sidebartext" href="creator.html">Creator</a></li><br>
+                <li><a class="sidebartext" href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- garen -->
+    <input type="image" id="gifgaren" onClick="document.getElementById('imggaren').src='img/garenn.jpg'" src="img/garen.gif" value="submit">
+    <img id="imggaren" src="img/gareno.jpg" alt="oldgaren">
+    <!-- jinx -->
+    <input type="image" id="gifjinx" onClick="document.getElementById('imgjinx').src='img/jinxn.jpg'" src="img/jinx.gif" value="submit">
+    <img id="imgjinx" src="img/jinxo.jpg" alt="oldjinx">
+    <!-- katarina -->
+    <input type="image" id="gifkatarina" onClick="document.getElementById('imgkatarina').src='img/katarinan.jpg'" src="img/katarina.gif" value="submit">
+    <img id="imgkatarina" src="img/katarinao.jpg" alt="oldkatarina">
+    <!-- sivir -->
+    <input type="image" id="gifsivir" onClick="document.getElementById('imgsivir').src='img/sivirn.jpg'" src="img/sivir.gif" value="submit">
+    <img id="imgsivir" src="img/siviro.jpg" alt="oldsivir">
+    <br><br>
+    <div style="position:fixed; bottom:40px; left:5px">
+    <p class="orgp"><b>Note: Click on the gif to see the new version.
+    </b></p>
+    </div>
+    <div style="position:fixed; bottom:0px; left:5px">
+    <p style="color: gray; font-size:15px;">All rights reserved by Özkan Ergüder.
+    </p>
+    </div>
+</body>
+</html>

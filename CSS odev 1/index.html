@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution of Champions on LoL</title>
+    <link rel="icon" href="img/zac.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body{
+        background-image: url('img/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    @font-face {
+    font-family: 'animalesfont';
+    src: local("animalesfont"), 
+    url(css/animalesfont.ttf) format(truetype);
+    font-display: swap;
+}
+</style>
+<body>
+    <h1 class="baslik">EVOLUTION OF LEAGUE OF LEGENDS' CHAMPIONS</h1>
+    <button id="buttondate" type="button"
+    onclick="document.getElementById('date').innerHTML = Date()">Date/Time
+    </button>
+    <p id="date"></p>
+    <input type="button" id="renk" value="renk değiştir">
+    var dizi=["#D24D57","#e74c3c","#f1c40f","#2c3e50","#8e44ad","#bdc3c7","#1abc9c","#3498db","#95a5a6"];
+    var renk=document.getElementById("renk");
+    renk.onclick=function(){
+    var rasgele=Math.floor(Math.random()*dizi.length);
+    document.body.style.backgroundColor=dizi[rasgele];
+    }
+    <br><br><br><br>
+    <div class="sidebar" id="transparent">
+        <div>
+            <ul id="ulsidebar">
+                <li><a class="sidebartext" href ="index.html">Home Page</a></li><br>
+                <li><a class="sidebartext" href="champions.html">Champions</a></li><br>
+                <li><a class="sidebartext" href="creator.html">Creator</a></li><br>
+                <li><a class="sidebartext" href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <img id="indexgaren" src="img/gareno.jpg" alt="old garen">
+    <img id="indexok" src="img/ok.jpg" alt="mor ok">
+    <img id="indexsi" src="img/soruisareti.jpg" alt="mor ok">
+    <div id="indexpdiv">
+    <h2 class="indexh2">Change Is Good!</h2>
+    <p class="orgp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, corporis magni eaque ipsum obcaecati delectus architecto at, nobis quibusdam mollitia, deleniti esse cupiditate quia dolore repellat provident doloribus! Deleniti, animi!
+    Fugit consequatur, debitis tenetur nemo itaque quasi accusantium,dolores fuga molestiae voluptatum labore quis officia minima quaerattotam ex laboriosam magnam amet dolore consectetur quos aliquam.Accusantium distinctio consectetur dolor!
+    Quos placeat odio temporibus et ea velit labore est suscipit sequi,tenetur reprehenderit unde magni consequatur officia ut facilislibero, nulla explicabo neque? Natus et, corporis molestiae possimusfugaLorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat,corporis magni eaque ipsum obcaecati delectus architecto at, nobisquibusdam mollitia, deleniti esse cupiditate quia dolore repellatprovident doloribus! Deleniti, animi!
+    Fugit consequatur, debitis tenetur nemo itaque quasi accusantium,dolores fuga molestiae voluptatum labore quis officia minima quaerattotam ex laboriosam magnam amet dolore consectetur quos aliquam.Accusantium distinctio consectetur dolor!
+    Quos placeat odio temporibus et ea velit labore est suscipit sequi,tenetur reprehenderit unde magni consequatur officia ut facilislibero, nulla explicabo neque? Natus et, corporis molestiae possimusfugaLorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat,corporis magni eaque ipsum obcaecati delectus architecto at, nobisquibusdam mollitia, deleniti esse cupiditate quia dolore repellatprovident doloribus! Deleniti, animi!
+    Fugit consequatur, debitis tenetur nemo itaque quasi accusantium,dolores fuga molestiae voluptatum labore quis officia minima quaerattotam ex laboriosam magnam amet dolore consectetur quos aliquam.Accusantium distinctio consectetur dolor!
+    Quos placeat odio temporibus et ea velit labore est suscipit sequi,tenetur reprehenderit unde magni consequatur officia ut facilislibero, nulla explicabo neque? Natus et, corporis molestiae possimusfugaLorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, corporis magni eaque ipsum obcaecati delectus architecto at, nobis quibusdam mollitia, deleniti esse cupiditate quia dolore repellat provident doloribus! Deleniti, animi!
+    Fugit consequatur, debitis tenetur nemo itaque quasi accusantium, dolores fuga molestiae voluptatum labore quis officia minima quaerat totam ex laboriosam magnam amet dolore consectetur quos aliquam. Accusantium distinctio consectetur dolor!
+    Quos placeat odio temporibus et ea velit labore est suscipit sequi, tenetur reprehenderit unde magni consequatur officia ut facilis libero, nulla explicabo neque? Natus et, corporis molestiae possimus fuga</p>
+    </div>
+    <div style="position:fixed; bottom:0px; left:5px">
+        <p style="color: gray; font-size:15px;">All rights reserved by Özkan Ergüder.
+        </p>
+    </div>
+</body>
+</html>

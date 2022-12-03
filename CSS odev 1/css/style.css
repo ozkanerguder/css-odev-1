@@ -1,0 +1,185 @@
+.baslik{
+    font-family: "animalesfont";
+    color: rgb(255, 140, 0);
+    text-align: center;
+    background: rgba(107, 20, 220, 0.2);
+    
+}
+/******************************** INDEX *******************************/
+.sidebar{
+    width: 18%;
+    margin-left: 0;
+    position: fixed;
+    top:175px ;
+}
+.sidebartext{
+    font-size: 25px;
+    color: rgb(255, 140, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+#ulsidebar{
+    list-style-type: none;
+    padding-left: 0;
+}
+#transparent{
+    background: rgba(107, 20, 220, 0.4);
+}
+#date{
+    color: aliceblue;
+    background-color: blueviolet;
+    position:absolute; 
+    top:45px; 
+    right:10px
+}
+#buttondate{
+    color: aliceblue;
+    background-color: blueviolet;
+    position:absolute; 
+    top:30px; 
+    right:10px;
+    border: 3px solid rgb(255, 140, 0);
+}
+#indexgaren{
+    position:absolute;
+    width:400px;
+    top:170px;
+    left:400px;
+    border: 2px solid rgb(255, 140, 0);
+}
+#indexok{
+    position:absolute;
+    width:100px;
+    top:250px;
+    left:850px;
+}
+#indexsi{
+    position:absolute;
+    width:430px;
+    top:170px;
+    right:113px;
+    border: 2px solid rgb(255, 140, 0)  ;
+}
+#indexpdiv{ 
+    background: rgba(107, 20, 220, 0.4);
+    width: 1050px;
+    border: 5px solid rgb(255, 140, 0);
+    padding: 30px;
+    margin: 20px;
+    position: absolute;
+    left: 280px;
+    top: 450px;
+}
+.orgp{
+    color: rgb(255, 140, 0);
+    font-size: 18px;
+}
+.indexh2{
+    font-size: 25px;
+    color: rgb(255, 140, 0)
+}
+
+
+/****************************CHAMPIONS *******************************/
+
+#gifgaren{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 225px;
+    border: 2px solid rgb(255, 140, 0);
+
+}
+#imggaren{
+    position:absolute;
+    width:500px;
+    top:170px;
+    right:200px;
+    border: 2px solid rgb(255, 140, 0)
+}
+#gifjinx{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 640px;
+    border: 2px solid rgb(255, 140, 0);
+
+}
+#imgjinx{
+    position:absolute;
+    width:500px;
+    top:550px;
+    right:200px;
+    border: 2px solid rgb(255, 140, 0)
+}
+#gifkatarina{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 955px;
+    border: 2px solid rgb(255, 140, 0);
+
+}
+#imgkatarina{
+    position:absolute;
+    width:500px;
+    top:915px;
+    right:200px;
+    border: 2px solid rgb(255, 140, 0)
+}
+#gifsivir{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 1380px;
+    border: 2px solid rgb(255, 140, 0);
+
+}
+#imgsivir{
+    position:absolute;
+    width:500px;
+    top:1280px;
+    right:200px;
+    border: 2px solid rgb(255, 140, 0)
+}
+
+/****************************CREATOR ********************************/
+#imgozk{
+    position: absolute;
+    right: 327px;
+    top: 73px;
+    width: 220px;
+}
+#creatordiv{
+    background: rgba(255, 140, 0, 0.8);
+    width: 300px;
+    border: 5px solid rgb(107, 20, 220);
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    right: 70px;
+    top: 300px;
+}
+.creatorp{
+    color: rgb(107, 20, 220);
+    font-size: 18px;
+}
+.creatorh2{
+    font-size: 25px;
+    color: rgb(107, 20, 220);
+}
+/****************************CONTACTS *******************************/
+#contactsdiv{
+    background: rgba(107, 20, 220, 0.8);
+    width: 55   0px;
+    border: 2px solid rgb(255, 140, 0);
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    left: 350px;
+    top: 152px;
+}
+.contactsp{
+    color: rgb(255, 140, 0);
+    font-size: 18px;
+}
